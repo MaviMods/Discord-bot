@@ -29,7 +29,7 @@ module.exports = {
         name: "query",
         description: "song name or url",
         type: ApplicationCommandOptionType.String,
-        required: true,
+        required: false,
       },
     ],
   },
