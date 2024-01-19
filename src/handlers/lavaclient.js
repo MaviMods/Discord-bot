@@ -13,7 +13,7 @@ module.exports = (client) => {
       id: process.env.SPOTIFY_CLIENT_ID,
       secret: process.env.SPOTIFY_CLIENT_SECRET,
     },
-    autoResolveYoutubeTracks: false,
+    autoResolveYoutubeTracks: true,
     loaders: [SpotifyItemType.Album, SpotifyItemType.Artist, SpotifyItemType.Playlist, SpotifyItemType.Track],
   });
 
