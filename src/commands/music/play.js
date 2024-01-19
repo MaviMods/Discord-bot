@@ -66,7 +66,7 @@ async function play({ member, guild, channel }, query) {
 
   let embed = new EmbedBuilder().setColor(EMBED_COLORS.BOT_EMBED);
   let tracks;
-  let description = "";
+  let description = "mavi";
 
   try {
     if (guild.client.musicManager.spotify.isSpotifyUrl(query)) {
