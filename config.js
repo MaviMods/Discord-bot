@@ -1,15 +1,15 @@
 module.exports = {
   OWNER_IDS: ["905880683006799882"], // Bot owner ID's
-  SUPPORT_SERVER: "https://discord.com/invite/znUyrpnS9p", // Your bot support server
+  SUPPORT_SERVER: "xxx", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "!", // Default prefix for the bot
+    DEFAULT_PREFIX: "+", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: false, // Should the interactions be enabled
     CONTEXT: false, // Should contexts be enabled
     GLOBAL: false, // Should the interactions be registered globally
-    TEST_GUILD_ID: "", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "xxx", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
     BOT_EMBED: "#068ADD",
@@ -30,7 +30,7 @@ module.exports = {
   // PLUGINS
 
   AUTOMOD: {
-    ENABLED: true,
+    ENABLED: false,
     LOG_EMBED: "#36393F",
     DM_EMBED: "#36393F",
   },
@@ -81,7 +81,7 @@ module.exports = {
   },
 
   INVITE: {
-    ENABLED: false,
+    ENABLED: true,
   },
 
   MODERATION: {
