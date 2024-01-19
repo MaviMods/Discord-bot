@@ -25,7 +25,7 @@ module.exports = {
   command: {
     enabled: true,
     usage: "<song-name>",
-    minArgsCount: 10,
+    minArgsCount: 1,
   },
   slashCommand: {
     enabled: true,
